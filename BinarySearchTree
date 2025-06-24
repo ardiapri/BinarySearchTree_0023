@@ -8,4 +8,12 @@ public:
     Node* leftchild;            // Pointer ke anak kiri (subtree kiri)
     Node* rightchild;           // Pointer ke anak kanan (subtree kanan)
 
-    
+    //constructor for Node class
+    Node()                      // Konstruktor default untuk Node
+    {
+        leftchild = nullptr;    // Inisialisasi anak kiri dengan nullptr (belum ada anak kiri)
+        rightchild = nullptr;   // Inisialisasi anak kanan dengan nullptr (belum ada anak kanan)
+    }
+};
+
+
